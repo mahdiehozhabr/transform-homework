@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+section{
+    display: flex;
+    background-color: pink;
+}
+.container-one{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-two, .container-five{
+  align-items: center;
+    justify-content: center;
+}
+.container-three{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-four{
+    align-items: center;
+    justify-content: center;
+}
+.box-one{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    /* position: relative; */
+    border: 1px solid;
+    display: flex;
+justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.box-two{
+    background-color: rgb(209, 207, 207);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border: 0.5px;
+}
+div.divider{
+    transition: all 0.5s ;
+}
+.divider{
+    background-color: rgba(114, 60, 114, 0.473);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border: 0.5px;
+}
+div:hover .one{
+    transform: rotate(45deg);
+}
+div:hover.two{
+    transform:scaleY(0.6);
+}
+div:hover .three{
+    transform: scaleX(0.6);
+}
+div:hover.four{
+    transform: scale(2);
+}
+div:hover.five{
+    transform: scaleX(2);
+}
+div:hover.six{
+    transform: scaleY(2);
+}
+div:hover.seven{
+    transform: skew(40deg);
+}
+div:hover.eight{
+    transform: skew(1deg,40deg);
+}
+div:hover.nine{
+    transform: translate(2rem,2rem);
+}
+div:hover.ten{
+    transform: translate(2rem);
+}
+div:hover.eleven{
+    transform: translateY(2rem);
+    
+}
+div:hover.twelve{
+    transform: skew(-10deg,50deg) scale(1.2) ;
+}
+div:hover.thirteen{
+    transform: perspective(100px) rotateY(45deg) translate(-1.5rem);
+    width: 50px;
+    height: 50px;
+    transform-origin: right ;
+}
+div:hover.fourteen{
+    transform: perspective(80px) rotateX(50deg) ;
+    width: 50px;
+    height: 50px;
+    transform-origin: top ;
+}
+div:hover.fifteen{
+    transform: rotate(50deg);
+    transform-origin: right top;
+}
+div:hover.sixteen{
+    transform: rotate(50deg);
+    transform-origin: bottom left;
+}
+div:hover.seventeen{
+    transform: perspective(80px) rotateX(45deg) ;
+    width: 50px;
+    transform-origin: center ;
+}
+div:hover.eighteen{
+    transform: perspective(250px) rotateX(50deg) ;
+    transform-origin:top;
+}
+div:hover.nineteen{
+    transform: perspective(80px) rotateY(45deg) ;
+    transform-origin: left ;
+}
+div:hover.twenty{
+    transform: perspective(250px) rotateY(45deg) ;
+    transform-origin: right ;
+}
+div:hover.twenty-one{
+    transform-origin:top right;
+    transform: scale(3);
+}
+div:hover.twenty-two{
+    transform-origin:bottom left;
+    transform: scale(3);
+}
+div:hover.twenty-three{
+   
+ transform: scaleX(2);
+transform-origin: right ;
+}
+div:hover.twenty-four{
+    transform: scaleX(2);
+    transform-origin: left ;
+}
+div:hover.twenty-five{
+    transform: scaleY(2);
+    transform-origin: top ; 
+}
+div:hover.twenty-six{
+    transform: scaleY(2);
+    transform-origin: bottom ;  
+}
